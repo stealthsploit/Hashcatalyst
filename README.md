@@ -11,7 +11,7 @@ Hashcatalyst is a wrapper for hashcat and is designed to automate traditional pa
 **Important:** 
 - Hashcatalyst needs to run from your hashcat folder. It calls **hashcat.exe** and **./hashcat** directly (If you're calling **hashcat.bin** in Linux, modify _hashcat_command_ within the _build_hashcat_command_ section of the respective script).
 - It expects your hash(es) to be in a file. If you want to pass a single hash via stdin, replace _%hash_list%_ (Windows) or _$hash_list_ (Linux) in the _build_hashcat_command_ section with your hash.
-- The included Windows/Linux [rlite binary](https://github.com/Cynosureprime/rlite) needs to be in the same folder that Hashcatalyst is run from.
+- The included Windows/Linux [rlite binary](https://github.com/Cynosureprime/rlite) needs to be in your hashcat folder.
 - At the top of the script(s), set your file paths for your hash list, mode, potfile, list/rule and folder locations, and optionally the hashcat utils path if you want to use the enhanced wordlist generation options (requires expander and cutb to be compiled in the target folder). A windows example is shown below.
 - Ensure all wordlists in the _wordlist_dir_ path have a **.txt** extension and rules in the _rule_folder_ path have a **.rule** extension.
 
