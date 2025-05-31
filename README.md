@@ -16,7 +16,7 @@ Hashcatalyst is a wrapper for hashcat and is designed to automate traditional pa
 - Ensure all wordlists in the _wordlist_dir_ path have a **.txt** extension and rules in the _rule_folder_ path have a **.rule** extension.
 
 ```
-set hash_list=C: \hashcat-6.2.6\MD5hashes.txt
+set hash_list=C:\hashcat-6.2.6\MD5hashes.txt
 set hashcat_mode=0
 set potfile_path=C:\hashcat-6.2.6\hashcat.potfile
 set wordlist=C:\wordlists\Hashcatalyst\google-10000-english.txt
@@ -31,7 +31,7 @@ set hashcat_utils_path=C:\hashcat-6.2.6\hashcat-utils\src
 set enable_username=false
 set enable_output_file=false
 set output_file=C:\hashcat-6.2.6\output.txt
-set log_file=C:\Data\Tools\hashcat-6.2.6\attack_log.txt
+set log_file=C:\hashcat-6.2.6\attack_log.txt
 ```
 
 <br>
