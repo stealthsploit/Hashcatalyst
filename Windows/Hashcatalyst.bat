@@ -428,7 +428,7 @@ goto :eof
 
 :attack12
 echo echo Running Combinator attack...
-set "combinator_command=hashcat.exe -m%hashcat_mode% %hash_list% --potfile-path=%potfile_path% -O -w3 -a1 %combi_list1% %combi_list2%
+set "combinator_command=hashcat.exe -m%hashcat_mode% %hash_list% --potfile-path=%potfile_path% -O -w3 -a1 %combi_list1% %combi_list2%"
 if "%enable_username%"=="true" set "combinator_command=%combinator_command% --username"
 if "%enable_output_file%"=="true" set "combinator_command=%combinator_command% -o %output_file%"
 (echo. & echo [%date% %time%][Started Combinator] !combinator_command!) >> %log_file%
