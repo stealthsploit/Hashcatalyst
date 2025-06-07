@@ -79,12 +79,13 @@ After setting up your file/folder paths above, simply run **Hashcatalyst.bat** f
 26. Select to ENABLE --username for user:hash hashlist
 27. Select to ENABLE output file
 28. Show current paths
-29. Exit
+29. Show cracked passwords
+30. Exit
 
 Free Password Cracking 101+1 training:
 https://in.security/technical-training/password-cracking/
 =============================================================
-Select an option (1-29):
+Select an option (1-30):
 ```
 
 <br>
