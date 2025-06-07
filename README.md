@@ -169,7 +169,7 @@ Ultimately you can modify Hashcatalyst to tweak the attacks to your choosing, or
 
 <br>
 <h2>Future Plans</h2>
-I don't have any immediate plans to develop the public version of Hashcatalyst further. The attack modules can be modified to inlcude other hashcat commands you might want for your methodologies, so feel free to adapt it.
+I don't have any immediate plans to develop the public version of Hashcatalyst further. The attack modules can be modified to include other hashcat commands you might want for your methodologies, so feel free to adapt it.
 <br>
 <br>
 The code will be suboptimal (I don't have a development background!). This was put together to be flexible and extensible, nothing more.
