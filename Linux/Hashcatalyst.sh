@@ -403,7 +403,7 @@ attack12() {
 }
 
 attack13() {
-    combinator_command="./hashcat -a1 $combi_list1 $combi_list2 --stdout | ./hashcat -m$hashcat_mode $hash_list -r $combi_rule -O -w3 --potfile-path=$potfile_path"
+    combinator_command="./hashcat -a1 $combi_list1 $combi_list2 --stdout | ./hashcat -m$hashcat_mode $hash_list -r $combi_rule -O -w3 --loopback --potfile-path=$potfile_path"
 	[ "$enable_username" = true ] && combinator_command+=" --username"
     [ "$enable_output_file" = true ] && combinator_command+=" -o $output_file"
     logging "Combinator" "$combinator_command"
